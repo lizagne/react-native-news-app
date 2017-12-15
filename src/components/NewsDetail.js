@@ -53,6 +53,10 @@ const styles = StyleSheet.create({
 
 	image: {
 		aspectRatio: 16/9,
+	},
+
+	description: {
+		marginTop: 10,
 	}
 
 })
