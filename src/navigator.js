@@ -1,9 +1,9 @@
 //this is where all the logic goes for the navigation
 //get EsLint, sometimes they get in the way
 
-import { Platform, StatusBar } from 'react-native';
+import { Platform, StatusBar, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
-import { Constants } from 'expo';
+import { Constants, WebBrowser } from 'expo';
 
 import NewsListScreen from './screens/NewsListScreen';
 import NewsDetailScreen from './screens/NewsDetailScreen';

@@ -21,8 +21,8 @@ class NewsListScreen extends Component {
 
     //add the navigate method
     navigateToDetailScreen(article) {
-      this.props.navigation.navigate
-      ('Detail', { article } ); //object single property article points to the article object
+      this.props.navigation.navigate(
+      'Detail', { article } ); //object single property article points to the article object
     }
  
   	render() {
